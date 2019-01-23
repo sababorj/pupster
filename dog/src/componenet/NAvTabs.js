@@ -22,7 +22,7 @@ function NavTabs() {
           to="/discover"
           className={window.location.pathname === "/discover" ? "nav-link active" : "nav-link"}
         >
-          Blog
+          Discover
         </Link>
       </li>
       <li className="nav-item">
@@ -30,7 +30,7 @@ function NavTabs() {
           to="/search"
           className={window.location.pathname === "/search" ? "nav-link active" : "nav-link"}
         >
-          Contact
+          Search
         </Link>
       </li>
     </ul>
